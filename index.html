@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knight holder Warrior -</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+<link rel="stylesheet" href="js/jquery-3.6.1.js">
+
+<link rel="stylesheet" href="all.min.css">
+<link rel="stylesheet" href="css/jqueryconvform.css">
+</head>
+<body>
+    <div class="chat_icon">
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+    </div>
+    <div class="chat_box">
+        <div class="conv-form-wrapper">
+        <form action="" method="GET" class="hidden">
+            <select name="category" data-conv-question="Hello ! How can I help You.">
+                <option value="New Register">New Register ?</option>
+                <option value="Already have account">Already have account ?</option>
+            </select>
+            <div data-conv-fork="category">
+                <div data-conv-case="New Register">
+                    <input type="text" name="New Register" data-conv-question="Hello S.Mahesh Singha Nice to see you.
+                     Please, tell me your Age !" 
+                    >
+                    <input type="text" name="name" data-conv-question="Please, Select your Game_ID !" 
+                    >
+                    <input data-conv-question="Type in your e-mail" data-pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" 
+                    id="email" type="email" name="email" required placeholder="What's your e-mail?">
+                </div>
+                <div data-conv-case="Already have account">
+                    <input type="text" name="gmail_account" data-conv-question="Hello S.Mahesh Singha Nice to see you.
+                    Please, tell me your Age !" 
+                    >
+                    <input type="text" name="name" data-conv-question="Please, tell me your Game_ID !" 
+                    >
+                    <input data-conv-question="Type in your e-mail" data-pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" 
+                    id="email" type="email" name="email" required placeholder="What's your e-mail?">
+               </div>
+               <select  data-conv-question="Confirm .">
+                <option value="Confirm">Confirm</option>
+                
+            </select>
+                </div>
+            </div>
+            
+        </form>
+        </div>
+
+    </div>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Untitled.png" alt="image"></a>
+            <div class="nav-links">
+                <i class="fa fa-window-close" aria-hidden="true"></i>
+                <ul>
+                    <li><a href="http://127.0.0.1:5502/">CHATBOT-Worksheet 2.1 Front-END</a></li>
+                    <li><a href="http://127.0.0.1:5502/index.html">CAROUSEL-Worksheet 2.2 Front-END</a></li>
+                    <li><a href="http://127.0.0.1:5500/">JASON-Worksheet 2.3 Front-END</a></li>
+                    <li><a href="file:///C:/Users/mahes/OneDrive/Documents/practise/my%20project/Carousel/index.html">REGISTER</a></li>
+                    <li><a href="">CONTACT</a></li>s
+                    </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Medieval Knight Holding Sword In His Hand </h1>
+            <p>Whatever possession we gain by our sword cannot be sure or lasting, but the love gained by kindness and moderation is certain and durable.
+                 <br>Open World RPG free to Play with your real time friends. Compete Now
+            </p>
+            <a href=""class="hero-btn">FREE TO PLAY</a>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="js/custom.js" defer></script>
+    <script src="js/convform.js" defer></script>
+    
+</body>
+</html>
